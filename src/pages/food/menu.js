@@ -1,5 +1,6 @@
 import styles from "@/styles/Home.module.css"
 import navstyle from "@/styles/food/index.module.css"
+import Link from "next/link"
 
 function Menu(){
     return(
