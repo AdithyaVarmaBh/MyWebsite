@@ -7,9 +7,9 @@ function Contact(){
     return(
         <main className={styles.main}>
         <div  className={navstyle.topnav}>
-        <a href="/food">Home</a>
-        <a href="/food/menu">Menu</a>
-        <a href="/food/contact">Contact Us</a>
+        <Link href="/food">Home</Link>
+        <Link href="/food/menu">Menu</Link>
+        <Link href="/food/contact">Contact Us</Link>
     </div>
         <h1>Please contact us on <a href="tel:+16476749376">+16476749376</a></h1>
        

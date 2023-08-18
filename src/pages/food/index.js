@@ -9,9 +9,9 @@ function FoodHome(){
             </Head>
             <main className={styles.main}>
                 <div className={navstyle.topnav}>
-                    <a href="/food">Home</a>
-                    <a href="/food/menu">Menu</a>
-                    <a href="/food/contact">Contact Us</a>
+                    <Link href="/food">Home</Link>
+                    <Link href="/food/menu">Menu</Link>
+                    <Link href="/food/contact">Contact Us</Link>
                 </div>
                 <h1 className={styles.title}>Welcome to My Foods Page</h1>
                 <div className={styles.center}>
