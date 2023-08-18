@@ -10,12 +10,13 @@
 .description {
   display: inherit;
   justify-content: inherit;
-  align-items: inherit;
+  align-items: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  
 }
 
 .description a {
@@ -26,7 +27,7 @@
 }
 
 .description p {
-  position: relative;
+  position: center;
   margin: 0;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
